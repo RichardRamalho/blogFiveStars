@@ -21,7 +21,7 @@
     <div id="app">
       <header>
         <div class="logo">
-          <a href="cruzeiro.com.br">
+          <a href="https://cruzeiro.com.br/" target="_blank">
             <img
               src="./src/Escudo_Cruzeiro_Retrô.png"
               alt="Escudo do Cruzeiro Esporte Clube"
@@ -39,12 +39,13 @@
         </div>
       </header>
       <main>
-        <figure id="cruzeiro-flag">
+        <figure class="cruzeiro-flag">
           <img
-            src="./src/zeirudo.jpg"
+            class="cruzeiro-flag"
+            src="https://img.migalhas.com.br/gf_Base/empresas/miga/imagens/2023/02/28/fc5f04f5-bfb6-4106-99b5-1d4507e978a4.jpg"
             alt="Logo do cruzeiro no gramado do mineirão"
           />
-          <figcaption>Logo do cruzeiro no gramado do mineirão</figcaption>
+          <figcaption class="sr-only">Logo do cruzeiro esporte clube</figcaption>
         </figure>
 
         <h1>Cruzeiro é eleito o melhor time brasileiro do século 20</h1>
@@ -73,42 +74,52 @@
       </main>
       <sidebar>
         <h2>Artigos relacionados</h2>
-        <div>
+        <div class="notes">
           <img
             src="./src/cruzeiro2013.jpg"
             alt="cruzeiro 2013 everton ribeiro e jb"
           />
-          <h3>Historico</h3>
+          <div class="text">
+            <h3>Historico</h3>
           <p>
             Cruzeiro 2013 tem campanha melhor que time celeste campeão em 2003.
           </p>
+          </div>
         </div>
-        <div>
+        <div class="notes">
           <img src="./src/mp.webp" alt="Foto de Matheus Pareira" />
-          <h3>Matheus Pereira faz balanço da temporada</h3>
+          <div class="text">
+            <h3>Matheus Pereira faz balanço da temporada</h3>
           <p>
             Craque da Raposa projeta 2024 com otimismo: Classificamos para a
             Sul-Americana. Temos que seguir fortes para a temporada.
           </p>
+          </div>
         </div>
-        <div>
+        <div class="notes">
           <img src="./src/gago.webp" alt="Técnico Fernando Gago em uma coletiva pelo Racing" />
-          <h3>Fernando Gago como plano A</h3>
+          <div class="text">
+            <h3>Fernando Gago como plano A</h3>
           <p>O Cruzeiro formalizou nesta terça-feira a proposta para contratar o técnico Fernando Gago.</p>
+          </div>
         </div>
-        <div>
+        <div class="notes">
           <img src="./src/wesleymonstro.webp" alt="jogador Wesley olhando para o telão" />
+         <div class="text">
           <h3>Negociações</h3>
           <p>Cruzeiro estuda empréstimos de atacantes Wesley e Paulo Vitor.</p>
+         </div>
         </div>
-        <div>
-          <img src="./src/rafael-cabral.webp" alt="Rafael Cabral exibe camisa comemorativa com número 100" />
-          <h3>Centenário!</h3>
+        <div class="notes">
+          <img src="./src/rafa100.webp" alt="Rafael Cabral exibe camisa comemorativa com número 100" />
+          <div class="text">
+            <h3>Centenário!</h3>
           <p>Rafael Cabral recebe homenagens pela marca de 100 jogos com a camisa Celeste.</p>
+          </div>
         </div>
       </sidebar>
       <footer>
-        <a href="https://github.com/RichardRamalho">2023 - by Richard Ramalho</a>
+        <a id="github" href="https://github.com/RichardRamalho" target="_blank">2023 - by Richard Ramalho</a>
       </footer>
     </div>
   </body>
