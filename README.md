@@ -5,7 +5,7 @@
 
 
 Esse projeto foi desenvolvido com base em um projeto do curso do explorer da Rocketseat.
-Mas fiz uma daptação para um "blog" do meu time do coração.
+Mas fiz uma adaptação para um "blog" do meu time do coração.
 Nele simula um veículo de noticias do Cruzeiro Eesporte Clube.
 Foi desenvolvido com Techs HTML e CSS.
 Atualizações futuras podem ser consideradas.
