@@ -26,6 +26,8 @@ body {
   background-color: var(--color-text-01);
 }
 
+/*  Media for Mobile */
+
 @media screen and (max-width: 599px) {
   header {
     max-width: 100%;
